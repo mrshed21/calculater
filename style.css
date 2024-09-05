@@ -19,7 +19,6 @@ body {
     background-color:antiquewhite ;
 }
 table { 
-    /* border: 1px solid black;  */
     margin-left: auto; 
     margin-right: auto; 
     
@@ -50,3 +49,13 @@ input[type="text"] {
     background-color: antiquewhite  ;
 
 } 
+
+@media (max-width: 600px) {
+    .main-sec table {
+        width: 90%;
+    }
+    input[type="button"] , input[type="text"] {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
+}
